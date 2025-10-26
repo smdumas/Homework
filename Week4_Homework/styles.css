@@ -1,0 +1,22 @@
+/* Box model explained-
+1.  Content section where the text  is locatd
+2.  Padding section is between the text and border used
+mostly for the background color.
+3.  Border which is what goes around the padding content
+4. Margin is the space between the content and everything else
+5. Outline will be outside the margin
+ */
+
+h2 {
+  border: 10px solid #362B48;
+  background-color: #fef6ff;
+  font-style: #362b48;
+}
+
+P {
+  color: #fef6ff;
+}
+
+.index-titletab {
+  color: #9b89b3
+}
