@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "userId": 1,
     "id": 1,
@@ -300,3 +300,20 @@
     "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
   }
 ]
+
+
+//  create a list of user 5's posts. code below
+const user5 = data.filter(post => post.userId === 5);
+console.log(user5);
+
+// then, create a list of title and body pairs
+
+data.forEach(user5 => {
+  console.log(user5.userId, user5.id, user5.title, user5.userId, user5.id, user5.title, user5.body)
+});
+
+
+
+
+
+

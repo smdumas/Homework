@@ -1,4 +1,6 @@
-[
+const { exit } = require("process");
+
+const data = [
   {
     "userId": 1,
     "id": 1,
@@ -300,3 +302,21 @@
     "completed": true
   }
 ]
+
+// create a list of user 3's to-dos code below
+
+// const user3Todo = data.filter(todo => todo.userId === 3);
+// console.log(user3Todo);
+
+
+// then find the number of user 3's incomplete tasks code below
+// const incompleteTasks = data.filter(task => !task.completed);
+// console.log(incompleteTasks);
+
+
+
+
+
+
+
+exit
