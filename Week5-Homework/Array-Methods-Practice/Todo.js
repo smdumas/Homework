@@ -310,8 +310,8 @@ const data = [
 
 
 // then find the number of user 3's incomplete tasks code below
-const incompleteTasks = data.filter(task => !task.completed);
-console.log(incompleteTasks);
+// const incompleteTasks = data.filter(task => !task.completed);
+// console.log(incompleteTasks);
 
 
 
