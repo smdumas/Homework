@@ -1,84 +1,37 @@
 html {
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 body {
   text-align: center;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 h1 {
-  font-size: 30px;
-  text-align: center;
-  font-style: normal;
-}
-
-
-div {
-  border: 0 solid burlywood;
-  margin: 10px;
-  text-align: justify;
-
+  font-size: 50px;
 }
 
 img {
-  max-width: 10%;
-  vertical-align: center;
-  border-radius: 1rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: auto;
-  height: 50%;
-  width: 50%;
-
+  height: 100%;
 }
 
-.container {
-  background-color: orange;
-  text-align: left;
-  display: left;
-  margin: auto;
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
 }
 
-
-h2 {
-  .container {
-    text-align: center;
-    justify display: center;
-    justify-content: flex-start;
-
-
-
-  }
-
-  background-color: orange;
-  text-align: center;
+#introPic {
+  float: left;
 }
-
-
-p {
-  padding: 0;
-  margin: auto;
-  padding-inline-start: 0%;
-  text-align: justify;
-
-}
-
 
 #about-me {
-  float: relative;
+  float: right;
+}
+
+#about-me>li {
   padding: 2px;
-  display: flex-center;
-  justify-content: flex-start;
 }
 
-
-@media(max-width <=667px) {
-  background-color: red;
-  flex-direction: column;
-}
-
-@media(min-width <=375px) {
-  background-color: yellow;
-  flex-direction: column;
+#pro {
+  width: auto;
 }
